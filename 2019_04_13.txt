@@ -1,0 +1,26 @@
+babel : es6 -> es5
+https://babeljs.io/docs/en/usage
+
+1. npm init
+2. babel.config.js 
+
+webpack	js파일들 모듈화
+https://webpack.js.org/guides/getting-started
+1. npm init
+2. webpack.config.js 
+
+
+React
+npx create-react-app .  ->현재 폴더에 설치
+"eject": "react-scripts eject" => 바벨, webpack을 수정해야할때 실행
+
+PWA => 검색해봐
+
+파일 삭제하고 npm run build
+
+npm run start -> webpack을 통해 webServer 구동(index.html, bundle.js , 1.chunk.js, Main/chunk.js만들어짐)가상으로
+
+값
+props -> component안에서 수정 불가
+
+state -> component안에서 수정 가능
